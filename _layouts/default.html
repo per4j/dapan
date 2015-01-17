@@ -14,7 +14,7 @@
 		<div class="content">
 		{{ content }}
 		</div>
-		{{ page.publishDate }}
+		{{ page.date | date_to_string }}
 		
 		<div class="footer">
 		    <h2 align="center">{{ page.footer }}</h2>
