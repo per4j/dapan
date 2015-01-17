@@ -21,3 +21,8 @@ header {
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
+.content {
+	width: 80%;
+	max-width:500;
+	margin:0 auto;
+}
